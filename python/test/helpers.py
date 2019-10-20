@@ -5,6 +5,7 @@ from datetime import datetime
 from sauceclient import SauceClient
 
 
+
 ANDROID_BASE_CAPS = {
     'app': os.path.abspath('../appium/apps/ApiDemos-debug.apk'),
     'automationName': 'UIAutomator2',
