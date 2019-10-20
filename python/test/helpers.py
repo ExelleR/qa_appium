@@ -6,7 +6,7 @@ from sauceclient import SauceClient
 
 
 ANDROID_BASE_CAPS = {
-    'app': os.path.abspath('../../apps/ApiDemos-debug.apk'),
+    'app': os.path.abspath('../apps/ApiDemos-debug.apk'),
     'automationName': 'UIAutomator2',
     'platformName': 'Android',
     'platformVersion': os.getenv('ANDROID_PLATFORM_VERSION') or '9.0',
